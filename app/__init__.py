@@ -10,3 +10,10 @@ def index():
     nome='qualquer' #variavel
     dados={"profissao":"SRE", "cidade":"Santa Rosa"} #variavel lista
     return render_template('index.html', nome=nome, dados=dados)
+
+@app.route('/Contato') #rota página contato
+def contato(): #define função contato
+    return render_template('Contato.html')
+
+
+app.run()
