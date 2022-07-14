@@ -1,0 +1,373 @@
+body { 
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: aqua
+}
+
+#top{
+    background: linear-gradient(rgba(170, 143, 245, 0.863), rgba(71, 52, 48, 0.74));;
+}
+
+header {
+text-align: center;
+
+}
+
+/**/
+
+nav {
+    width: 600px;
+    margin: 10px auto 0 auto;
+    display: flex;
+    justify-content: space-evenly;  
+    
+}
+
+
+nav a {
+    background-color: rgba(7, 179, 179, 0.555);
+    padding: 20px 50px;
+    text-decoration: none;
+    color: rgb(3, 56, 56);
+    font-size: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    color: rgb(243, 243, 243);
+    background-color: rgba(122, 4, 4, 0.712);
+    border: 2px solid black;
+    box-shadow: 5px 3px 20px rgb(80, 0, 0) ;
+
+}
+
+main{
+    margin: 20px;
+}
+
+.imgname {
+   height: 250px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgba(160, 142, 147, 0.253);
+   border-radius: 15px;
+}
+
+.pagina{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(160, 142, 147, 0.253); 
+    padding: 10px;
+    border-radius: 15px;
+
+}
+h2{
+    font-size: 45px;
+  
+    padding: 15px;
+}
+
+.textos {
+    width: auto;
+    height: 350px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(160, 142, 147, 0.253);  
+    border-radius: 15px;  
+}
+
+
+.titulo{
+    font-size: 40px;
+    margin: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px hsla(14, 90%, 39%, 0.507);
+
+}
+.paragrafo{
+    font-size: 25px;
+    line-height: 12,5px;
+    margin: 25px;
+
+}
+
+.textos span{
+    font-weight: bold;
+    
+}
+
+#servicos{
+    padding: 20px;
+    margin: 15px 0px 0px 0px;
+    background-color: rgba(94, 46, 46, 0.3);
+   
+}
+
+#servicos .itens {
+    width: 500px;
+    background-color: rgba(7, 255, 193, 0.096);
+    margin: auto;
+    height: auto;
+    border-radius: 15px;
+    padding: 25px;
+
+}
+
+#servicos .itens p {
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px hsla(14, 90%, 39%, 0.507);
+}
+
+#servicos .title-beneficios {
+    display: flex;
+    justify-content: space-around;
+}
+
+#servicos ul{
+    text-align: center;
+}
+
+#servicos ul li{
+    margin: 12px 0px;
+    font-size: 20px;
+}
+
+#servicos ul li:hover{
+    transform: scale(1.1);
+    text-shadow: 2px 2px 5px hsla(194, 95%, 9%, 0.507);
+    cursor: pointer;
+
+}
+
+#horario-funcionamento {
+    margin: auto;
+}
+ 
+#horario-funcionamento .container{
+    width: 500px;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+
+#horario-funcionamento .container table{
+    margin: auto;
+    border: 1px solid #000;
+    
+}
+
+#horario-funcionamento .container table th{
+    width: 170px;
+    background-color: rgba(59, 25, 27, 0.651);
+    border: 1px solid #000;
+}
+
+#horario-funcionamento table td{
+    text-align: center;
+    padding: 2px 0px;
+    border: 1px solid #000;
+}
+
+#video {
+    margin: 20px 0px;
+ background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 0%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(63deg, rgba(2,0,36,1) 24%, rgba(172,27,171,1) 62%, rgba(196,5,61,0.9192051820728291) 97%, rgba(0,212,255,1) 100%);
+}
+footer .container{
+    margin: 0px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .midia a{
+    text-decoration: none;
+    transition: 0.9s;
+    display: inline-block;
+    margin: 20px 0px;
+}
+
+footer .midia{
+    display: flex;
+    width: 320px;
+    justify-content: space-evenly;
+
+}
+footer .midia img{
+
+    width: 50px;
+
+}
+
+footer .midia a:hover{
+    transform: translateY(-45px);
+
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(7, 179, 179, 0.555);
+    border-radius: 15px;
+
+}
+
+.produtos .produto {
+    width: 250px;
+    border: 2px solid rgb(131, 3, 3);
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px 15px;
+    margin: 50px 0px;
+}
+
+.produtos .produto:hover{
+    transform: translateY(-15px);
+    background-color: rgba(12, 60, 165, 0.616);
+    font-weight: bold;
+    border-color: rgb(43, 0, 59);
+    box-shadow: 2px 2px 2px rgba(202, 8, 8, 0.705);
+    cursor: pointer
+}
+
+.produtos .produto:active{
+    border-color: rgb(1, 178, 201);
+}
+
+.produto img:hover {
+    transition: 2s;
+    transform: scale(1.2) translateY(-10px);
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form input{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid rgba(7, 179, 179, 0.555);
+
+
+}
+
+main form input:focus {
+    outline: none;
+    border: dashed rgba(7, 179, 179, 0.555);
+ 
+}
+
+main form label{
+    margin-top: 15px;
+}
+
+main form textarea{
+    width: 300px ;
+    border-radius: 5px;
+    border: 2px solid rgba(7, 179, 179, 0.555); 
+}
+main form textarea:focus{
+    outline: none;
+    border: dashed rgba(7, 179, 179, 0.555);
+    
+}
+
+main form button{
+    height: 40px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid rgba(20, 22, 22, 0.555); 
+    background-color: rgba(7, 179, 179, 0.555);
+    color: rgb(3, 56, 56);
+    font-size: 18px;
+    text-decoration: none
+}
+
+main form button:hover{
+    color: rgb(243, 243, 243);
+    background-color: rgba(122, 4, 4, 0.712);
+    border: 2px solid black;
+    box-shadow: 5px 3px 20px rgb(80, 0, 0) ;
+
+}
+
+#contato_form{
+    background-color: rgba(7, 179, 179, 0.555);
+    border-radius: 15px;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+#login{
+    padding: 15px;
+    background-color: rgba(7, 179, 179, 0.555);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width:768px){
+    .textos{
+        width: unset;
+    }
+
+    .produtos{
+        flex-wrap: wrap;
+        align-content: center;
+     }
+    .produto{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 560px){
+    nav{ 
+    flex-direction: column;
+    width: unset;
+    text-align: center;
+
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
+
+    #servicos .itens{
+        width: unset;
+    }
+
+    footer .container{
+        flex-direction: column;
+    }
+
+    #horario-funcionamento .container{
+        width: unset;
+    }
+
+    
+}
+

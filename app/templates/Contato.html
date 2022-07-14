@@ -1,5 +1,29 @@
-{% extends 'base.html' %}
+{% extends 'index.html' %}
 
 {%block conteudo %}
-<h2>Hello CONTATO</h2>
+<main>
+    <div id="contato_form">
+    <form action="">
+        <label for="nome">Nome</label>
+        <input type="text" name="" id="nome" placeholder="Nome" tabindex="1" required>
+
+        <label for="email">E-Mail</label>
+        <input type="email" name="" id="email" placeholder="E-Mail" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" tabindex="2" required>
+
+        <label for="telefone">Telefone</label>
+        <input type="tel" pattern="[0-9]*$" title="SOMENTE NÚMEROS" name="" id="telefone" placeholder="(XX) XXXXX-XXXX" tabindex="3" required>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea name="" id="mensagem" cols="30" rows="10" tabindex="4"></textarea>
+
+        <button type="submit">ENVIAR</button>
+    </form>
+</div>    
+</main>
+
+</body>
+
+</body>
+
+</html>
 {%endblock %}

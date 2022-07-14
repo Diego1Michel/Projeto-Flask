@@ -1,12 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos</title>
-</head>
-<body>
-    
-</body>
-</html>
+{% extends 'index.html' %}
+
+{%block conteudo %}
+  <main>
+        <section class="produtos">
+           <div class="produto">
+                <p>Cabelo</p>
+                <img src="{{url_for('static',filename='cabelo.png')}}" alt="cabelo ">
+                <p>Na Tesoura ou máquina, como o cliente o cliente prederir</p>
+                <p>R$30,00</p>
+           </div>
+
+           <div class="produto">
+                <p>barba</p>
+                <img src="{{url_for('static',filename='barba.png')}}" alt="cabelo ">
+                <p>Corte e desenho profissional de barba</p>
+                <p>R$20,00</p>
+           </div>
+
+           <div class="produto">
+                <p>Cabelo e Barba</p>
+                <img src="{{url_for('static',filename='cabelo+barba.png')}}" alt="cabelo ">
+                <p>Pacote completo de cabelo e barba</p>
+                <p>R$49,99</p>
+           </div>
+          
+
+       </section>
+
+    </main>
+{%endblock %}
